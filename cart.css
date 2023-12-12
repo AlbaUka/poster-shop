@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   font-size: 35px;
@@ -20,20 +21,7 @@ body {
   background-color: black;
 }
 
-/*First section with three articles/products on each row*/
-img {
-  width: 288px;
-  /* align-self: center; */
-}
-
-.flex-article {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 70px 450px;
-}
-
+/*Affects all the divs*/
 div {
   display: flex;
   flex-direction: column;
@@ -56,57 +44,7 @@ p {
   margin-bottom: 8px;
 }
 
-button {
-  background-color: red;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: white;
-  width: 150px;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-/*Second article with two "products"*/
-.second-article {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin: 70px 450px;
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-}
-
-.background-color-different {
-  background-color: white;
-  color: black;
-  width: 460px;
-  height: 690px;
-
-  margin: 20px;
-  padding-bottom: 20px;
-}
-
-.second-img {
-  width: 460px;
-}
-
-.second-h2 {
-  margin-left: 10px;
-  margin-top: 20px;
-}
-
-.second-p {
-  margin-left: 10px;
-  padding-top: 8px;
-}
-
-.second-button {
-  margin-left: 10px;
-}
-
 /*FOOTER*/
-
 .footer-div {
   height: 200px;
   display: inline;

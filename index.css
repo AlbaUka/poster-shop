@@ -35,7 +35,10 @@ img {
 }
 
 div {
-  width: 288px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 288px; */
   height: 500px;
   margin: 20px;
   color: white;
@@ -54,11 +57,11 @@ p {
 }
 
 button {
-  display: inline;
   background-color: red;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: white;
-  padding: 5px;
+  width: 150px;
+  padding: 10px;
   border-radius: 5px;
 }
 
@@ -67,7 +70,7 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 70px 450px;
   background-color: black;
   color: white;
@@ -78,18 +81,22 @@ button {
   background-color: white;
   color: black;
   width: 460px;
-  height: 680px;
+  height: 690px;
+  /* height: 680px; */
   margin: 20px;
+  padding-bottom: 20px;
 }
 
 /*FOOTER*/
 
 .footer-div {
   height: 200px;
+  display: inline;
+  padding: px;
 }
 
 footer {
-  background-color: rgb(59, 57, 57);
+  background-color: rgb(54, 53, 53);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -117,7 +124,7 @@ footer {
 }
 
 nav {
-  margin-top: 5px;
+  padding-top: 5px;
 }
 
 .fa {
